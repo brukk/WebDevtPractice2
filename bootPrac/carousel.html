@@ -47,7 +47,7 @@
 
       <!-- carousel-->
 
-      <div class="carousel slide" id="myslider" data-ride="carousel">
+      <div class="carousel slide" id="myslider" data-ride="carousel" >
 
           <ol class="carousel-indicators">
               <li data-target="#myslider" data-slide-to="0" class="active"></li>
@@ -82,16 +82,6 @@
           </a>
       </div>
 
-      
-
-      <!-- jumbotron -->
-      <div class="jumbotron jumbotron-fluid bg-secondary text-white text-center">
-        <div class="container">
-            <h1 class="display-4">Carousels sliding...</h1>
-            <p class="lead">home of the best carousel flipper...</p>
-        </div> 
-      </div>
-
 
       <!-- Cards BS4 (Panels BS3) -->
       <div class="container text-muted ">
@@ -100,7 +90,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card border-primary">
                         <div class="card-header bg-primary">
-                            <h3 class="text-center card-title text-light">The Net Ninja</h3>
+                            <h3 class="text-center card-title text-light">The Reds</h3>
                         </div>
                         <div class="card-body">
                             <p>In fact, it wasn't until 1964 when manager Bill Shankly 
@@ -123,7 +113,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card border-warning">
                         <div class="card-header bg-warning">
-                            <h3 class="text-center card-title text-light">The Web Wizard</h3>
+                            <h3 class="text-center card-title text-light">Kopites</h3>
                         </div>
                         <div class="card-body">
                             <p>In fact, it wasn't until 1964 when manager Bill Shankly 
@@ -146,7 +136,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card border-success">
                         <div class="card-header bg-success">
-                            <h3 class="text-center card-title text-light">Captain Code</h3>
+                            <h3 class="text-center card-title text-light">Anfield</h3>
                         </div>
                         <div class="card-body">
                             <p>In fact, it wasn't until 1964 when manager Bill Shankly 
@@ -169,7 +159,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card border-danger">
                         <div class="card-header bg-danger">
-                            <h3 class="text-center card-title text-light">Angular Avenger</h3>
+                            <h3 class="text-center card-title text-light">YNWA</h3>
                         </div>
                         <div class="card-body">
                             <p>In fact, it wasn't until 1964 when manager Bill Shankly 
@@ -199,5 +189,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval:2800,
+            pause:"hover",
+            wrap:true,
+            ride:true,
+            keyboard:true
+        });
+    </script>
   </body>
 </html>
