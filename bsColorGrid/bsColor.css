@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top:100px ;
+}
+
+.row{
+    height:100px;
+    width:100%;
+}
+
+.inner{
+    border:2px solid white;
+}
+
+.pink{
+    background:#F5C6D6;
+}
+
+.red{
+    background: #EE2E84;
+}
+
+.skyblue{
+    background: #85CFD8;
+}
+
+.green{
+    background: #8DC63F;
+}
+
+.brown{
+    background: #E76E34;
+}
+
+@media screen and (min-width:768px){
+    
+    .one{
+           height:50px;
+        }
+
+    .two{
+        height:200px;
+    }    
+
+    .three, .four{
+        height:100px;
+    }
+
+   
+}
+
