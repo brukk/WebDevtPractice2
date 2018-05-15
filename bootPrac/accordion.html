@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="cardsPanels.css">
     
-    <title>modal Pop-ups</title>
+    <title>Accordion</title>
   </head>
   <body>
 
@@ -49,10 +49,62 @@
       <!-- jumbotron -->
 
       <div class="jumbotron jumbotron-fluid bg-secondary text-white text-center">
-        <div class="container">
-            <h1 class="display-4">Modal Pop-ups</h1>
-            <p class="lead">home of the best pop-up distributor...</p>
-        </div> 
+            <div class="container">
+                <h1 class="display-4">Modal Pop-ups</h1>
+                <p class="lead">home of the best pop-up distributor...</p>
+            </div> 
+      </div>
+
+      <!-- Accordion -->
+      <div class="container text-muted ">
+
+            <div id="myaccordion">
+
+                <div class="card " style="margin-bottom:10px">
+                    <div class="card-header bg-info">
+                        <h3 class="card-title text-light" data-target="#card-1" data-toggle="collapse" >Ninja Training</h3>
+                    </div>
+                    <div class="collapse " id="card-1" data-parent="#myaccordion">
+                        <div class="card-body">
+                                <p>Red ones as he felt an all-red kit strip would make his players 
+                                look more scary to the opposition! In fact, it wasn't until 1964 
+                                when manager Bill Shankly 
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card " style="margin-bottom:10px">
+                    <div class="card-header bg-info">
+                        <h3 class="card-title text-light" data-target="#card-2" data-toggle="collapse" data-parent="#myaccordion">Wizard Training</h3>
+                    </div>
+                    <div class="collapse" id="card-2" data-parent="#myaccordion">
+                        <div class="card-body">
+                                <p>In fact, it wasn't until 1964 when manager Bill Shankly decided 
+                                to replace the white shorts and socks with red ones as he felt 
+                                an all-red kit strip.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card " style="margin-bottom:60px">
+                    <div class="card-header bg-info">
+                        <h3 class="card-title text-light" data-target="#card-3" data-toggle="collapse" data-parent="#myaccordion">Code Training</h3>
+                    </div>
+                    <div class="collapse" id="card-3" data-parent="#myaccordion">
+                            <div class="card-body">
+                                    <p>The socks with red ones as he felt an all-red kit strip would make 
+                                        his players look more scary to the opposition his players 
+                                        look more scary to the opposition!
+                                    </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
       </div>
 
 
