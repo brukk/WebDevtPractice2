@@ -16,3 +16,9 @@ img{
     margin-bottom:50px;
 }
 
+#myaccordion .card-header:hover{
+    cursor:pointer;
+}
+
+
+
