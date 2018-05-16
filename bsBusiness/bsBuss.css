@@ -25,6 +25,20 @@ h1{
     height:180px;
 }
 
+nav{
+    background:rgb(59, 59, 58);
+}
+
+.nav a{
+    color:rgb(207, 195, 195);
+    padding:2px;
+    border:1px solid rgb(80, 80, 76);
+}
+
+.nav a:hover{
+    background:rgb(92, 92, 89);
+}
+
 
 @media screen and (min-width:991px){
     h1{
