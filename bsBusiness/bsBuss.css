@@ -19,6 +19,7 @@ h1{
 
 .card{
     margin-bottom: 40px;
+    background: rgb(235, 223, 223);
 }
 
 .img2{
@@ -33,6 +34,7 @@ nav{
     color:rgb(207, 195, 195);
     padding:2px;
     border:1px solid rgb(80, 80, 76);
+    width:33.33%;
 }
 
 .nav a:hover{
@@ -56,3 +58,8 @@ nav{
     }
 }
 
+@media screen and (max-width:767px){
+    .nav a{
+        width:100%;
+    }
+}
