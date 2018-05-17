@@ -13,6 +13,7 @@
   </head>
   <body>
 
+    <!-- carousel -->
     <div class="carousel slide" id="myslider" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myslider" data-slide-to="0" class="active"></li>
@@ -47,13 +48,55 @@
           <span class="carousel-control-next-icon"></span>
         </a>
     </div>
+    <!-- End-carousel -->
+
+
+    <!-- containt -->
+    <div class="container text-muted text-center">
+      <div class="row">
+        <div class="col-12 col-md-6 one">
+          <h2>Addis in the sunshine</h2>
+          <p>Ethiopians take their history very seriously, and they have good reason: 
+            Ethiopia has one of the world's oldest Christian traditions. It was one of 
+            only two African countries not colonized, plus it's widely accepted that 
+            the first humans came from the Rift Valley running through Ethiopia.
+            Hence, in the National Museum of Ethiopia, you'll find the legendary Lucy, 
+            the oldest and most complete hominid skeleton ever discovered, which was 
+            found in the northeastern Danakil desert (an amazing travel experience 
+            itself). (National Museum of Ethiopia, King George VI St., Addis Abab.
+          </p>
+        </div>
+      
+        <div class="col-12 col-md-6 two">
+          <h2>Sheger at Night</h2>
+          <p>It's a rite of passage to try local staple injera -- a spongy pancake-like 
+              bread piled with various meats, vegetables and delicious hot sauces.
+              Addis has a number of well-known traditional restaurant options, which 
+              typically also put on traditional dancing displays while you eat.
+              The 2000 Habesha Cultural Restaurant is a longstanding favorite 
+              (Namibia Street, Addis Ababa; +251 11 618 2253).
+              Farther from the city center is Totot Restaurant (+251 11 646 0718) in 
+              Mebrat Hail, specializing in kitfo, a spicy minced beef dish often praised 
+              by Ethiopian supermodels for its nutritional powers.
+            </p>
+        </div>
+        
+
+      </div>
+    </div>
+    <!-- End-containt -->
 
       
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+    <script>
+        $(".carousel").carousel({
+          interval:2000,
+          pause:"hover",
+        });
+      </script>    
+    
   </body>
 </html>
